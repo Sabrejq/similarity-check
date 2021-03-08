@@ -25,6 +25,6 @@ def comparison(file_one, file_two):
     intersection = len(set(text_one).intersection(text_two))
     union = len(set(text_one)) + len(set(text_two)) - intersection
 
-    return intersection / union
+    return float((intersection / union)) 
 
-print(comparison("sampleOne.txt","sampleOne.txt"))
+print(f'The two files are {comparison("sampleOne.txt","sampleTwo.txt")} or {round(comparison("sampleOne.txt","sampleTwo.txt"),3)*100}% similar to each other ')
