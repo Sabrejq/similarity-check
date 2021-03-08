@@ -1,4 +1,6 @@
 # similarity-check
 DE Exercise
 
-![Alt text](relative/path/to/img.png?raw=true "Title")
+<p align="center">
+  <img src="https://github.com/Sabrejq/similarity-check/blob/main/img.png" title="hover text">
+</p>
